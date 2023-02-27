@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/sign.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <title>Login Page!</title>
+</head>
+
+<style>
+    body {
+        background-color: black;
+    }
+
+    .img2 {
+        padding-top: 100px;
+    }
+
+    h1 {
+        color: #FC5801;
+        font-weight: 400;
+    }
+
+    .text {
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .line {
+        position: relative;
+        height: 1px;
+        width: 30%;
+        max-width: 36px 0;
+        background-color: #fff;
+    }
+
+    .line::before {
+        content: 'OR ';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: black;
+        color: #fff;
+        padding: 0 15px;
+    }
+
+    .media-options a {
+        text-decoration: none;
+
+    }
+
+
+    form {
+        position: relative;
+        top: 30px;
+    }
+
+    input[type=text],
+    input[type=password] {
+        display: block;
+        border: none;
+        padding: 1em;
+        margin: 1em auto;
+        background: rgba(0, 0, 0, .2);
+        box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), 1px 1px 0 rgba(255, 255, 255, .05);
+        color: #fff;
+        width: 70%;
+    }
+
+    #embed-btn {
+        position: relative;
+    }
+
+    #show-pwd {
+        font-family: 'FontAwesome';
+        position: absolute;
+        top: .6em;
+        right: 3.2em;
+        border: none;
+        border-radius: 50px;
+        background: #f5f5f5;
+        color: #222;
+        padding: .5em;
+        cursor: pointer;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background: rgba(0, 0, 0, .3);
+    }
+
+    ::-webkit-input-placeholder {
+        font-family: 'FontAwesome', 'Roboto';
+        color: #fff;
+        font-weight: 200;
+    }
+
+    ::-moz-placeholder {
+        font-family: 'FontAwesome', 'Roboto';
+        color: #fff;
+        font-weight: 200;
+    }
+
+    :-ms-input-placeholder {
+        font-family: 'FontAwesome', 'Roboto';
+        color: #fff;
+        font-weight: 200;
+    }
+
+    :-moz-placeholder {
+        font-family: 'FontAwesome', 'Roboto';
+        color: #fff;
+        font-weight: 200;
+    }
+
+    .auth {
+        display: block;
+        background: #FC5801;
+        padding: 1em 3em;
+        margin: 1.5em auto;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+        cursor: pointer;
+        letter-spacing: 1px;
+        font-family: 'Roboto';
+        transition: ease-in-out all .2s;
+    }
+
+    .auth:hover {
+        background: #e4dcdc;
+        color: #FC5801;
+    }
+
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: .8em;
+        font-family: 'FontAwesome', 'Roboto';
+        line-height: 2em;
+        font-weight: 100;
+        padding: .3em 0;
+        transition: ease-in-out all .2s;
+    }
+
+    a:hover {
+        margin-left: 1em;
+    }
+
+
+    .text span {
+        color: #FC5801;
+    }
+
+    .tex span {
+        color: #FC5801;
+    }
+
+    .okay {
+        margin-bottom: 100px;
+    }
+
+    .tex p {
+        margin-left: 330px;
+        justify-content: space-between;
+
+    }
+
+    .tex a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+
+    <section class="container">
+        <div class="container img2 ">
+            <img src="../img/CASH CRUX.png" alt="">
+        </div>
+
+        <h1 class="text-center "> Create Account</h1>
+        <p class="text-center text-white pt-3 text">Grow and audience by creating a model account </p>
+
+
+
+        <div class="media-options mt-5 text-center">
+            <div class="btn btn-secondary">
+                <a href="#" class="facebook mt-5 text-white">
+
+                    <i class="bi bi-facebook facebook-icon"></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+
+
+            <div class="btn btn-secondary ms-5">
+                <a href="#" class="facebook mt-5 text-white">
+                    <i class="bi bi-google"></i>
+                    <span>Login with Google</span>
+                </a>
+            </div>
+
+            <div class="line text-center mt-5  container">
+            </div>
+
+
+    </section>
+
+    <section class=" text-center">
+        <div class="container  align-items-center">
+            <div class="login-container">
+                <form action="" class="login">
+
+                    <input type="text" name="Email" class="bg-dark mb-5" id="username" placeholder="  Email address">
+
+                    <div id="embed-btn">
+                        <input type="password" class="bg-dark mb-5" name="password" id="password" required
+                            placeholder="     Password">
+
+                    </div>
+
+                    <div class="mt-3 ">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label text-white team-sm pt-1 " for="exampleCheck1">
+                            <p>Remeber</p>
+                        </label>
+                        <div class="tex d-flex ms-5 p-5 content">
+                            <p class="text-white text-center"> Are you a fan?<a href=""><span>sign up here</span></a>
+                            </p>
+                            <p1 class="text-white ms-5 ps-5 "><a href=""><span>Forgot password</span></a></p1>
+                        </div>
+                    </div>
+                    <div class=" okay">
+                        <input type="submit" value="Sign in" class="auth ">
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
